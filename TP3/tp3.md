@@ -1,11 +1,11 @@
 TP3 SECU : SVP soyez cools
-```
+
 Le jeudi 10 octobre et vendredi 11 octobre 2024 s'est déroulé un TP réseau dans la section cybersécurité se portant sur un scan réseau de tout le campus d'une école. Comme mentionné , il s'agissait uniquement d'un scan pour apprendre à récolter des informations et des données dans une démarche de prise d'information passive et non active, tout cela encadré par un professionnel. Il est à rappeler que ce travail a été réalisé dans un cadre purement pédagogique et qu'il est donc forcément et nécéssairement illégal à refaire ça dans n'importe quel réseau sous peine de sanction pénale sévère et exemplaire. 
 
 Vous retrouverez dans le cadre de ce rapport toutes les informations récoltées point par point ainsi que de potentielles vulnérabilités trouvées à la fin.
 
 À savoir que toutes les informations qui seront déposées dans ce rapoort ont été récoltées étant au rez-de-chausée du batiment, par mesure de discrétion.
-```
+
 ```
 - Mon point de départ de cette récolte d'information est logiquement de connaitre mon IP pour ensuite me donner de la matière à travailler pour la suite.
 
