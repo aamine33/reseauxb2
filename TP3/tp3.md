@@ -6,12 +6,11 @@ Vous retrouverez dans le cadre de ce rapport toutes les informations récoltées
 
 À savoir que toutes les informations qui seront déposées dans ce rapoort ont été récoltées étant au rez-de-chausée du batiment, par mesure de discrétion.
 
-```
 - Mon point de départ de cette récolte d'information est logiquement de connaitre mon IP pour ensuite me donner de la matière à travailler pour la suite.
 
 ifconfig
 Avec un résultat étant wlo1 : 10.33.66.94
-```
+
 
 🌞 Découverte du réseau
 ```
