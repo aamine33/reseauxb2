@@ -42,14 +42,13 @@ MAC Address: C4:BD:E5:2D:31:D3 (Intel Corporate)
 MAC Address: 4C:1D:96:03:E3:D2 (Intel Corporate)
 MAC Address: B0:BE:83:10:8F:B0 (Apple)
 MAC Address: 0E:B3:22:1C:3F:7A (Unknown)
-
--Ce résultat du scan me permet d'avoir une vue d'ensemble sur les appareils connectés à mon réseau local afin de repérer les appareils grace à leurs adresses MAC. Il y'a 9 appareils Intel Corporate appartenant certainement à des équipements informatique du batiments tels que des ordinateurs ou des ordinateurs par exemple , après il y'a 18 appareils inconnus et 1 appareil de la marque Apple.
-
 ```
+- Ce résultat du scan me permet d'avoir une vue d'ensemble sur les appareils connectés à mon réseau local afin de repérer les appareils grace à leurs adresses MAC. Il y'a 9 appareils Intel Corporate appartenant certainement à des équipements informatique du batiments tels que des ordinateurs ou des ordinateurs par exemple , après il y'a 18 appareils inconnus et 1 appareil de la marque Apple.
+
 🌞 Les équipements fixes (routeurs, serveurs, PC fixes, etc.)
-```
-- Dans un second temps, il fallait identifier les équipements de l'école qui ne bougent pas comme les servers , les ordinateurs ou les routeurs par exemple. Ces équipements ont des ports spécifiques qui sont ouverts.
 
+- Dans un second temps, il fallait identifier les équipements de l'école qui ne bougent pas comme les servers , les ordinateurs ou les routeurs par exemple. Ces équipements ont des ports spécifiques qui sont ouverts.
+```
 batman33@BATPC:~$ sudo nmap -sS -p 22,80,443 10.33.66.0/24
 
 [L'option -p 22,80 et 443 vont me permettre de scanner uniquement les ports courants et rien d'autre comme les ports SSH , HTTP et HTTPS.]
@@ -316,16 +315,17 @@ PORT    STATE  SERVICE
 443/tcp closed https
 
 Nmap done: 256 IP addresses (29 hosts up) 
+```
 
 - À la suite de ces résultats, nous constatons que les machines ayant les ports fermés (SSH, HTTP, HTTPS) semblent etre des ordinteurs fixes ou des périphériques qui ne sont pas accessibles de manière standard. Néanmoins, nous relevons qu'il y'a 2 servers(10.33.66.94, 10.33.66.105) et un server web (10.33.66.44).
-```
+
 
 🌞 Les bornes WiFi
-```
+
 - Ensuite, nous arrivons à l'étape de trouver les bornes WiFi. Pour cela, j'ai utilisé la command aircrack-ng pour identifier et analyser les bornes. Avec cette commande, nous pouvons obtenir des informations comme l'adresse MAC (BSSID) , la puissance du signal (PWR), le canal utilisé (CH), le type de chiffrement (WEP, WPA...), et le nombre de clients connectés (STATION). Airmon-ng ou airodump-ng peuvent servir à la détection des vulnérabilitéés ou au suivi et surveillance de ces bornes, mais cela ne fait pas parti du cadre légal de ce travail réalisé au sein de l'école.
 
-- Pour pouvoir mener à bien cette récolte d'information avec la commande airmon-ng, il fallait d'abord se mettre en monitor avec la commande <sudo airmon-ng start wlo1>, une fois que l'ordinateur a basculé en mode monitor :
-
+- Pour pouvoir mener à bien cette récolte d'information avec la commande airmon-ng, il fallait d'abord se mettre en monitor avec la commande "sudo airmon-ng start wlo1", une fois que l'ordinateur a basculé en mode monitor :
+```
 batman33@BATPC:~$ sudo airmon-ng start wlo1
 
 Found 4 processes that could cause trouble.
@@ -371,20 +371,18 @@ Found 4 processes that could cause trouble.
  E8:10:98:99:A9:A0  B2:CE:58:EC:15:B2  -91    1e- 1      0       39                                                                                                                                                
  E8:10:98:99:A9:A0  E2:C9:D6:9D:7B:01  -82    1e- 1      0       12         WiFi@YNOV                                                                                                                              
  E8:10:98:99:A9:A0  4E:07:B3:80:06:EE  -88    1e- 6e     0       57   
-
-
-- Nous nous apercevons qu'il ya 24 bornes WiFi, une information relevée depuis le rez-de-chausée du batiment.        
 ```
+- Nous nous apercevons qu'il ya 24 bornes WiFi, une information relevée depuis le rez-de-chausée du batiment.        
+
 
 🌞 Emplacement physique de la salle server
 
-```
 Emplacement de la Salle Serveur :
 
 La salle serveur est située au deuxième étage du bâtiment au milieu des salles 205 et 201 au fond du couloir à gauche de la sortie du premier escalier ou il y'a les distributeurs , sinon à droite en prenant les deuxièmes escaliers ou il y'a le plan de l'école. L'accès à cette salle est strictement limité au personnel autorisé. Aucune entrée n'est permise sans autorisation. 
 
 PS : Aucune tentative physique d'y pénétrer n'a été réalisé, aucune demande de visite de cette salle a été faite également auprès de l'adminstrateur réseau de l'école. Ni aucun scan pour récolter des informations dans cette salle n'a été effectué. 
-```
+
 
 🌞 Les périphériques réseau
 ```
@@ -587,9 +585,9 @@ Starting arp-scan 1.10.0 with 256 hosts (https://github.com/royhills/arp-scan)
 
 7 packets received by filter, 0 packets dropped by kernel
 Ending arp-scan 1.10.0: 256 hosts scanned in 1.859 seconds (137.71 hosts/sec). 6 responded
-
-- Suite à ce résultat avec arp-scan , nous pouvons remarquer qu'il y'a 5 appareils avec une adresse MAC inconnue. Je suppose que les 4 appareils avec le commentaire "Unknown locally administred" ont des adresses mac auto-assignée ou ont été configuré manuellement, ce sont peut-etre des des VM (machines virtuelles) ou un appareil ayant une configuration réseau particulière.
 ```
+- Suite à ce résultat avec arp-scan , nous pouvons remarquer qu'il y'a 5 appareils avec une adresse MAC inconnue. Je suppose que les 4 appareils avec le commentaire "Unknown locally administred" ont des adresses mac auto-assignée ou ont été configuré manuellement, ce sont peut-etre des des VM (machines virtuelles) ou un appareil ayant une configuration réseau particulière.
+
 🌞 Détection des LANs joignables ou isolés
 ```
 batman33@BATPC:~$ sudo arp-scan --localnet
@@ -1219,14 +1217,14 @@ Starting arp-scan 1.10.0 with 4096 hosts (https://github.com/royhills/arp-scan)
 
 618 packets received by filter, 0 packets dropped by kernel
 Ending arp-scan 1.10.0: 4096 hosts scanned in 16.028 seconds (255.55 hosts/sec). 611 responded
-
-- Suite à ce scan , nous relevons des IP avec des adresse mac administrés localement qui ont une configuration manuelle ou spécifique ne suivant pas le schéma habituel des adresses MAC attribuées par les fabricants. IL y'a des adresses IP avec des adresses mac non identifiés, surement les appareils téléphoniques des étudiants et ou des ordinateurs et autres appareils qui sont inhabituels sur le réseau. Et pour finir, je relève des duplicata (DUP) sur certains appareils qui peuvent signifier qu'il y'a plusieurs interfaces réseaux ou bien que ces appareils soient actifs sur plusieurs sous-réseaux.
 ```
+- Suite à ce scan , nous relevons des IP avec des adresse mac administrés localement qui ont une configuration manuelle ou spécifique ne suivant pas le schéma habituel des adresses MAC attribuées par les fabricants. IL y'a des adresses IP avec des adresses mac non identifiés, surement les appareils téléphoniques des étudiants et ou des ordinateurs et autres appareils qui sont inhabituels sur le réseau. Et pour finir, je relève des duplicata (DUP) sur certains appareils qui peuvent signifier qu'il y'a plusieurs interfaces réseaux ou bien que ces appareils soient actifs sur plusieurs sous-réseaux.
+
 
 🌞 Équipements réseau 
-```
--Je vois une télévision du batiment affichant une IP donc je vais la scanner:
 
+-Je vois une télévision du batiment affichant une IP donc je vais la scanner:
+```
 batman33@BATPC:~$ sudo nmap -sS 10.33.81.227
 [sudo] Mot de passe de batman33 : 
 Starting Nmap 7.93 ( https://nmap.org ) at 2024-10-10 16:08 CEST
@@ -1240,11 +1238,12 @@ PORT     STATE SERVICE
 8600/tcp open  asterix
 
 Nmap done: 1 IP address (1 host up) scanned in 0.32 seconds
+```
 
--En regardant le résultat, on voit que tous les ports sont ouverts. Par curiosité, je vais prendre le port 8000 (10.33.81.227:8000) et le regarder sur le navigateur web sur quoi je vais tomber sur le site de eshare.app permettant de caster son écran de téléphone ou de son ordinateur à la télévision , qui est héberger localement sur la télévision en http. Pareil pour le 10.33.81.227:1443 ou le message "Client sent an HTTP request to an HTTPS server." résultant d'une mauvaise configuration.
+- En regardant le résultat, on voit que tous les ports sont ouverts. Par curiosité, je vais prendre le port 8000 (10.33.81.227:8000) et le regarder sur le navigateur web sur quoi je vais tomber sur le site de eshare.app permettant de caster son écran de téléphone ou de son ordinateur à la télévision , qui est héberger localement sur la télévision en http. Pareil pour le 10.33.81.227:1443 ou le message "Client sent an HTTP request to an HTTPS server." résultant d'une mauvaise configuration.
 
 -Ensuite , je vais scanner le réseau secondaire afin de trouver toutes les adresses ip de chaque télévision allumés :
-
+```
 batman33@BATPC:~$ sudo nmap -sS -n 10.33.81.227/25 -p1443 --open
 Starting Nmap 7.93 ( https://nmap.org ) at 2024-10-10 16:12 CEST
 Nmap scan report for 10.33.81.132
@@ -1439,11 +1438,9 @@ PORT     STATE SERVICE
 1443/tcp open  ies-lm
 
 Nmap done: 128 IP addresses (14 hosts up) scanned in 2.58 seconds
+```
 
 - Et voilà les résultats obtenus. À savoir que cette opération a été effectué 2/3 fois par mesure de vérification. En effet , avec le professionnel qui a superviser ce travail, nous nous étions rendus compte que suite à une manipulation sur la télévision de notre salle, cela a impacté toutes les télévisions allumer donc tous les professeurs faisant cours dans les autres salles de classes mais qui n'utilisaient pas la télévisions se sont vu voir le contenu de l'ordinateur de notre salle de notre télévision. Au départ, j'ai trouvé 19 télévision, mais cette fois j'en ai trouvé 14, je conclue donc que la différence s'explique par le fait que 5 télévisions ont été tout simplement éteintes.
-
-
-```
 
 🌞 Détection d'OS sur quelques machines du réseau
 
@@ -1506,7 +1503,7 @@ Network Distance: 1 hop
 
 OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 8.52 seconds
-
+```
 
 
 - Dans un premier temps, j'ai repris l'IP de la télévision ayant l'adresse 10.33.81.227. J'ai donc voulu scanner cette télévision afin de trouver quel OS est dans cette télévision. À la suite du premier résultat , je remarque que Nmap n'a pas trouvé exactement son OS car elle l'OS de cette télévision n'a pas de correspondance claire dans sa base de donnée connue. Je pourrai raffiner le scan avec l'option "-A" pour obtenir plus d'informations mais je m'arrete là. 
@@ -1515,16 +1512,15 @@ Nmap done: 1 IP address (1 host up) scanned in 8.52 seconds
 
 - Puis concernant le trosième scan, effectué sur pc d'un membre de ma classe. Bien que les résultats me montre plusieurs versions de windows avec des scores de fiabilité différentes , l'ordinateur tourne bien sous Windows 10.
 
-```
-
 🌞 Le bluetooth
-```
+
 - J'ai voulu aller encore plus loin en voulant faire un scan bluetooth au sein du batiment. Pour cela, j'ai utilisé l'outil bluetoothctl afin de mener à bien cette démarche.
+```
+bluetoothctl scan on
+```
 
-<bluetoothctl scan on>
-
-Je joins à ce rapport en fichier annexe , le fichier "resultats_bluetooth.txt" pour donner de la matière à la recherche et aux résultats rendues. Là je vais faire un résumer de tous les appareils que j'ai trouvé ou nom avec leur quantité. Avec leurs adresses MAC, on pouvait soit utiliser le site macVendors pour reconnaitre quel type d'appareil cela était lié ou exécuter un script évitant de taper manuellement chaque adresse mac et gagner de ce fait du temps. À savoir que le scan a duré que quelques dizaines de secondes et non 5 minutes , afin d'éviter plusieurs doublons et autres soucis de gestion parce qu'en lançant le scan nous avons 3 informations importante. il y'a [NEW] correspondants aux nouveaux appareils connectés au bluetooth, [DEL] corresponds aux appareils ayant enlevé le bluetooth, et le [CHG] signifiant un changement de connectivité ou d'état.
-
+- Je joins à ce rapport en fichier annexe , le fichier "resultats_bluetooth.txt" pour donner de la matière à la recherche et aux résultats rendues. Là je vais faire un résumer de tous les appareils que j'ai trouvé ou nom avec leur quantité. Avec leurs adresses MAC, on pouvait soit utiliser le site macVendors pour reconnaitre quel type d'appareil cela était lié ou exécuter un script évitant de taper manuellement chaque adresse mac et gagner de ce fait du temps. À savoir que le scan a duré que quelques dizaines de secondes et non 5 minutes , afin d'éviter plusieurs doublons et autres soucis de gestion parce qu'en lançant le scan nous avons 3 informations importante. il y'a [NEW] correspondants aux nouveaux appareils connectés au bluetooth, [DEL] corresponds aux appareils ayant enlevé le bluetooth, et le [CHG] signifiant un changement de connectivité ou d'état.
+```
 - Intel Corporate
 
 Cela semble etre un ordinateur fixe ayant allumé le bluetooth.
@@ -1563,9 +1559,9 @@ Il y'a 85 appareils dont l'adresse mac n'est pas identifiable.
 ```
 
 🌞 Les caméras
-```
-- Ma démarche cette fois-ci sera d'essayer de repérer toutes les caméras repérables dans le batiment. Après des recherches, pour rendre plus efficace mon scan , je vais préciser les ports 80c(protocole HTTP pour le trafic web non sécurisé),554 (protocole RTSP pour Real-Time Streaming Protocol utilisé pour le streaming vidéo en temps réel), 8080(protocole alternatif HTTP utilisé pour les servers) et 9000 (utilisé pour les médias).
 
+- Ma démarche cette fois-ci sera d'essayer de repérer toutes les caméras repérables dans le batiment. Après des recherches, pour rendre plus efficace mon scan , je vais préciser les ports 80c(protocole HTTP pour le trafic web non sécurisé),554 (protocole RTSP pour Real-Time Streaming Protocol utilisé pour le streaming vidéo en temps réel), 8080(protocole alternatif HTTP utilisé pour les servers) et 9000 (utilisé pour les médias).
+```
 batman33@BATPC:~$ sudo nmap -sS -O -p 80,554,9000 10.33.78.0/24
 [sudo] Mot de passe de batman33 : 
 Starting Nmap 7.93 ( https://nmap.org ) at 2024-10-14 11:31 CEST
@@ -2184,19 +2180,15 @@ Network Distance: 1 hop
 
 OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 256 IP addresses (54 hosts up) scanned in 312.09 seconds
-
--Ce que j'observe dans un premier temps, c'est que le port 80 est uniquement ouvert à l'appareil ayant l'adresse 10.33.78.67, sinon il est fermé ou filtré comme les ports 554 et 9000 ce qui laisse supposer qu'il y'a un pare-feu présent ou des controles d'accès sur ces appareils. Évidemment, plusieurs appareils ont leur adresses Mac identifiés mais le reste est inconnu, mais je ne vais pas aller plus loin pour faire des vérifications supplémentaire pour comprendre quels appareils sont sur mon réseau afin de rester dans le cadre du TP.
+```
+- Ce que j'observe dans un premier temps, c'est que le port 80 est uniquement ouvert à l'appareil ayant l'adresse 10.33.78.67, sinon il est fermé ou filtré comme les ports 554 et 9000 ce qui laisse supposer qu'il y'a un pare-feu présent ou des controles d'accès sur ces appareils. Évidemment, plusieurs appareils ont leur adresses Mac identifiés mais le reste est inconnu, mais je ne vais pas aller plus loin pour faire des vérifications supplémentaire pour comprendre quels appareils sont sur mon réseau afin de rester dans le cadre du TP.
 
 - En revanche, les appareils que je pense susceptible d'etre des cameras appartiennent aux IP 10.33.78.56 (le port RTSP étant filtré , cela peut signifier que l'appareil est configuré pour ignorer les requetes ou il qu'il y'a un pare-feu), 10.33.78.67(bien que le port RSTP est filtré, l'appareil est susceptible d'etre une caméra parce qu'il accepte les connexions au port 80 qui peut etre de ce fait un point d'accés pour les caméras réseau) et 10.33.78.96( bien que le port RSTP est filtré, il pourrait s'avérer etre un dispositif de surveillance).
 
-
-```
-
 🌞 Potentielles vulnérabilités
-```
+
 Je rappelle une nouvelle fois à travers ce rapport que ce travail a consisté uniquement à une prise d'information passive pour l'exercice d'une récolte d'informations et non d'autres choses. 
 
 - Une attaque "Man In The Middle"(MITM) potentielle via les télévisions. En effet, la connexion au port 8000 se fait en http donc rien n'est sécurisé et encore moins chiffré. De ce fait, une attaque MITM pourrait se faire en faisant télécharger un fichier compromis à des fins malveillantes.
 
 - Une autre attaque potentielle qui peut se faire au sein de l'école. En effet, dans le réseau auquel je me trouve, je constate que l'administrateur du réseau a opté pour l'utilisation du WPA2 Enterprise pour la sécurité du réseau WiFi. Mais, en commençant par un spoofing du réseau, puis installer un faux server, pour ensuite désauthentifier les cibles du réseau légitime, et passer par la collecte des données suite au forçage des cibles à se connecter au réseau monté de toute pièces, me voilà avoir réussi une attaque MITM.
-```
