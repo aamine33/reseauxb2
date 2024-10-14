@@ -48,10 +48,10 @@ MAC Address: 0E:B3:22:1C:3F:7A (Unknown)
 🌞 Les équipements fixes (routeurs, serveurs, PC fixes, etc.)
 
 - Dans un second temps, il fallait identifier les équipements de l'école qui ne bougent pas comme les servers , les ordinateurs ou les routeurs par exemple. Ces équipements ont des ports spécifiques qui sont ouverts.
-```
-batman33@BATPC:~$ sudo nmap -sS -p 22,80,443 10.33.66.0/24
 
 [L'option -p 22,80 et 443 vont me permettre de scanner uniquement les ports courants et rien d'autre comme les ports SSH , HTTP et HTTPS.]
+```
+batman33@BATPC:~$ sudo nmap -sS -p 22,80,443 10.33.66.0/24
 
 Starting Nmap 7.93 ( https://nmap.org ) at 2024-10-11 11:09 CEST
 Nmap scan report for 10.33.66.24
