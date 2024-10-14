@@ -1,0 +1,384 @@
+Discovery started
+[[0;93mCHG[0m] Controller 34:C9:3D:22:BB:BC Discovering: yes
+[[0;92mNEW[0m] Device 00:A0:50:CF:51:5E LCOG-92235377C01
+[[0;92mNEW[0m] Device 00:0A:83:1E:6A:2D 00-0A-83-1E-6A-2D
+[[0;92mNEW[0m] Device 00:A0:50:CF:55:8E LCOG-92235378A03
+[[0;92mNEW[0m] Device 9C:2F:9D:67:50:A0 PHANTOM
+[[0;92mNEW[0m] Device 00:A0:50:C4:38:E7 LCOG-92235411A02
+[[0;92mNEW[0m] Device 00:0A:83:1E:69:2A 00-0A-83-1E-69-2A
+[[0;92mNEW[0m] Device 00:0A:83:43:00:37 00-0A-83-43-00-37
+[[0;92mNEW[0m] Device 00:0A:83:1E:72:CE 00-0A-83-1E-72-CE
+[[0;92mNEW[0m] Device 00:A0:50:06:95:C7 LCOG-92235392C04
+[[0;92mNEW[0m] Device 00:0A:83:1E:69:22 00-0A-83-1E-69-22
+[[0;92mNEW[0m] Device 9C:2F:9D:67:46:16 PHANTOM
+[[0;92mNEW[0m] Device 00:0A:83:1E:69:CD 00-0A-83-1E-69-CD
+[[0;92mNEW[0m] Device F4:6A:DD:34:90:1E PHANTOM
+[[0;92mNEW[0m] Device 00:0A:83:1E:70:75 00-0A-83-1E-70-75
+[[0;92mNEW[0m] Device 47:CA:2E:8B:71:C6 47-CA-2E-8B-71-C6
+[[0;92mNEW[0m] Device 47:18:86:E2:DE:8A 47-18-86-E2-DE-8A
+[[0;92mNEW[0m] Device F0:1A:A0:00:01:AC F0-1A-A0-00-01-AC
+[[0;92mNEW[0m] Device F4:6A:DD:34:93:6A PHANTOM
+[[0;92mNEW[0m] Device 00:0A:83:1E:70:80 00-0A-83-1E-70-80
+[[0;92mNEW[0m] Device F4:6A:DD:34:87:96 PHANTOM
+[[0;92mNEW[0m] Device 6D:7F:C1:09:F2:67 6D-7F-C1-09-F2-67
+[[0;92mNEW[0m] Device 00:0A:83:1E:72:0B 00-0A-83-1E-72-0B
+[[0;92mNEW[0m] Device 18:B7:9E:0F:C2:8D 18-B7-9E-0F-C2-8D
+[[0;92mNEW[0m] Device 00:0A:83:45:00:26 00-0A-83-45-00-26
+[[0;93mCHG[0m] Device 9C:2F:9D:67:50:A0 RSSI: -93
+[[0;93mCHG[0m] Device 00:0A:83:1E:69:22 RSSI: -91
+[[0;93mCHG[0m] Device 00:0A:83:1E:69:22 TxPower: -13
+[[0;92mNEW[0m] Device F4:6A:DD:34:92:BC PHANTOM
+[[0;93mCHG[0m] Device 00:0A:83:1E:69:CD RSSI: -89
+[[0;93mCHG[0m] Device 47:18:86:E2:DE:8A RSSI: -99
+[[0;92mNEW[0m] Device 00:0A:83:3A:00:4D 00-0A-83-3A-00-4D
+[[0;92mNEW[0m] Device 00:0A:83:19:41:AD 00-0A-83-19-41-AD
+[[0;92mNEW[0m] Device 77:E8:AB:F6:3A:8D 77-E8-AB-F6-3A-8D
+[[0;92mNEW[0m] Device 4B:86:1B:D2:8D:DC 4B-86-1B-D2-8D-DC
+[[0;92mNEW[0m] Device 5D:5E:12:35:45:BB 5D-5E-12-35-45-BB
+[[0;91mDEL[0m] Device 00:0A:83:43:00:37 00-0A-83-43-00-37
+[[0;92mNEW[0m] Device 76:9F:B8:3A:9D:3B 76-9F-B8-3A-9D-3B
+[[0;92mNEW[0m] Device 47:06:04:3B:14:36 47-06-04-3B-14-36
+[[0;92mNEW[0m] Device 4B:AD:1C:76:27:17 4B-AD-1C-76-27-17
+[[0;91mDEL[0m] Device F0:1A:A0:00:01:AC F0-1A-A0-00-01-AC
+[[0;91mDEL[0m] Device 6D:7F:C1:09:F2:67 6D-7F-C1-09-F2-67
+[[0;92mNEW[0m] Device 71:45:1C:79:5E:E9 71-45-1C-79-5E-E9
+[[0;91mDEL[0m] Device 00:0A:83:1E:72:0B 00-0A-83-1E-72-0B
+[[0;92mNEW[0m] Device 60:FF:4E:FA:9B:5D 60-FF-4E-FA-9B-5D
+[[0;91mDEL[0m] Device 18:B7:9E:0F:C2:8D 18-B7-9E-0F-C2-8D
+[[0;91mDEL[0m] Device 00:A0:50:C4:38:E7 LCOG-92235411A02
+[[0;91mDEL[0m] Device 00:A0:50:CF:51:5E LCOG-92235377C01
+[[0;91mDEL[0m] Device 00:A0:50:CF:55:8E LCOG-92235378A03
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Value:
+  01 00 00 00 00 00 00 00 00 00 00 00 00 80 00 00  ................
+  00                                               .               
+[[0;92mNEW[0m] Device 7C:8B:58:0C:A7:DE 7C-8B-58-0C-A7-DE
+[[0;92mNEW[0m] Device 00:0A:83:2F:62:11 00-0A-83-2F-62-11
+[[0;91mDEL[0m] Device 00:0A:83:1E:6A:2D 00-0A-83-1E-6A-2D
+[[0;91mDEL[0m] Device 9C:2F:9D:67:50:A0 PHANTOM
+[[0;91mDEL[0m] Device 00:0A:83:1E:69:22 00-0A-83-1E-69-22
+[[0;92mNEW[0m] Device 64:9F:A1:FF:1B:D5 64-9F-A1-FF-1B-D5
+[[0;91mDEL[0m] Device 00:A0:50:06:95:C7 LCOG-92235392C04
+[[0;91mDEL[0m] Device 00:0A:83:1E:69:CD 00-0A-83-1E-69-CD
+[[0;91mDEL[0m] Device 47:18:86:E2:DE:8A 47-18-86-E2-DE-8A
+[[0;92mNEW[0m] Device 00:0A:83:2C:8E:BC 00-0A-83-2C-8E-BC
+[[0;91mDEL[0m] Device 00:0A:83:1E:69:2A 00-0A-83-1E-69-2A
+[[0;91mDEL[0m] Device F4:6A:DD:34:92:BC PHANTOM
+[[0;91mDEL[0m] Device 47:CA:2E:8B:71:C6 47-CA-2E-8B-71-C6
+[[0;91mDEL[0m] Device 00:0A:83:3A:00:4D 00-0A-83-3A-00-4D
+[[0;91mDEL[0m] Device F4:6A:DD:34:93:6A PHANTOM
+[[0;92mNEW[0m] Device F0:1A:A0:00:03:F5 F0-1A-A0-00-03-F5
+[[0;91mDEL[0m] Device F4:6A:DD:34:90:1E PHANTOM
+[[0;91mDEL[0m] Device 9C:2F:9D:67:46:16 PHANTOM
+[[0;91mDEL[0m] Device 00:0A:83:1E:72:CE 00-0A-83-1E-72-CE
+[[0;91mDEL[0m] Device 00:0A:83:1E:70:80 00-0A-83-1E-70-80
+[[0;91mDEL[0m] Device 00:0A:83:1E:70:75 00-0A-83-1E-70-75
+[[0;91mDEL[0m] Device 00:0A:83:45:00:26 00-0A-83-45-00-26
+[[0;91mDEL[0m] Device 00:0A:83:19:41:AD 00-0A-83-19-41-AD
+[[0;91mDEL[0m] Device F4:6A:DD:34:87:96 PHANTOM
+[[0;91mDEL[0m] Device 77:E8:AB:F6:3A:8D 77-E8-AB-F6-3A-8D
+[[0;93mCHG[0m] Device 4B:AD:1C:76:27:17 RSSI: -84
+[[0;92mNEW[0m] Device 00:A0:50:CF:03:59 00-A0-50-CF-03-59
+[[0;93mCHG[0m] Device 5D:5E:12:35:45:BB RSSI: -75
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Value:
+  10 06 3e 19 c0 b2 27 48                          ..>...'H        
+[[0;93mCHG[0m] Device F0:1A:A0:00:03:F5 RSSI: -70
+[[0;93mCHG[0m] Device F0:1A:A0:00:03:F5 ManufacturerData Key: 0x011b
+[[0;93mCHG[0m] Device F0:1A:A0:00:03:F5 ManufacturerData Value:
+  08 f5 03 00 a0 1a f0 18 41 a7 83 01 00 00 56 35  ........A.....V5
+  01 00 ff                                         ...             
+[[0;91mDEL[0m] Device 60:FF:4E:FA:9B:5D 60-FF-4E-FA-9B-5D
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Value:
+  01 00 00 00 00 00 00 00 00 00 00 00 00 80 00 00  ................
+  00                                               .               
+[[0;91mDEL[0m] Device 00:0A:83:2F:62:11 00-0A-83-2F-62-11
+[[0;91mDEL[0m] Device 7C:8B:58:0C:A7:DE 7C-8B-58-0C-A7-DE
+[[0;93mCHG[0m] Device 71:45:1C:79:5E:E9 RSSI: -71
+[[0;93mCHG[0m] Device 5D:5E:12:35:45:BB ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 5D:5E:12:35:45:BB ManufacturerData Value:
+  10 05 36 18 88 c5 b3                             ..6....         
+[[0;92mNEW[0m] Device 77:E8:AB:F6:3A:8D 77-E8-AB-F6-3A-8D
+[[0;92mNEW[0m] Device 00:0A:83:2F:62:11 00-0A-83-2F-62-11
+[[0;92mNEW[0m] Device 28:DE:65:FF:FE:B0 28-DE-65-FF-FE-B0
+[[0;93mCHG[0m] Device 4B:AD:1C:76:27:17 RSSI: -74
+[[0;92mNEW[0m] Device F0:1A:A0:00:08:AC F0-1A-A0-00-08-AC
+[[0;91mDEL[0m] Device 00:A0:50:CF:03:59 00-A0-50-CF-03-59
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Value:
+  10 06 3e 19 c0 b2 27 48                          ..>...'H        
+[[0;91mDEL[0m] Device F0:1A:A0:00:03:F5 F0-1A-A0-00-03-F5
+[[0;92mNEW[0m] Device 42:FF:64:04:93:22 42-FF-64-04-93-22
+[[0;92mNEW[0m] Device 5D:FE:83:4D:CB:69 5D-FE-83-4D-CB-69
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC RSSI: -77
+[[0;93mCHG[0m] Device 00:0A:83:2F:62:11 ManufacturerData Key: 0x0199
+[[0;93mCHG[0m] Device 00:0A:83:2F:62:11 ManufacturerData Value:
+  02 00 24                                         ..$             
+[[0;92mNEW[0m] Device 6D:65:D6:34:A8:BA 6D-65-D6-34-A8-BA
+[[0;93mCHG[0m] Device 77:E8:AB:F6:3A:8D RSSI: -78
+[[0;93mCHG[0m] Device 77:E8:AB:F6:3A:8D ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 77:E8:AB:F6:3A:8D ManufacturerData Value:
+  01 00 00 00 00 00 00 00 00 00 00 00 00 80 00 00  ................
+  00                                               .               
+[[0;92mNEW[0m] Device 60:FF:4E:FA:9B:5D 60-FF-4E-FA-9B-5D
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC RSSI: -85
+[[0;91mDEL[0m] Device 71:45:1C:79:5E:E9 71-45-1C-79-5E-E9
+[[0;93mCHG[0m] Device 6D:65:D6:34:A8:BA RSSI: -72
+[[0;91mDEL[0m] Device 5D:5E:12:35:45:BB 5D-5E-12-35-45-BB
+[[0;93mCHG[0m] Device 4B:AD:1C:76:27:17 RSSI: -82
+[[0;93mCHG[0m] Device 77:E8:AB:F6:3A:8D ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 77:E8:AB:F6:3A:8D ManufacturerData Value:
+  10 06 7c 1d ed 84 8e 18                          ..|.....        
+[[0;91mDEL[0m] Device 28:DE:65:FF:FE:B0 28-DE-65-FF-FE-B0
+[[0;92mNEW[0m] Device 5D:5E:12:35:45:BB 5D-5E-12-35-45-BB
+[[0;92mNEW[0m] Device 00:0A:83:2C:8E:9D 00-0A-83-2C-8E-9D
+[[0;91mDEL[0m] Device F0:1A:A0:00:08:AC F0-1A-A0-00-08-AC
+[[0;92mNEW[0m] Device 60:4F:8F:79:A2:61 60-4F-8F-79-A2-61
+[[0;93mCHG[0m] Device 42:FF:64:04:93:22 RSSI: -100
+[[0;92mNEW[0m] Device 71:45:1C:79:5E:E9 71-45-1C-79-5E-E9
+[[0;93mCHG[0m] Device 60:4F:8F:79:A2:61 ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 60:4F:8F:79:A2:61 ManufacturerData Value:
+  01 00 00 00 00 00 00 00 00 00 00 00 00 80 00 00  ................
+  00                                               .               
+[[0;93mCHG[0m] Device 4B:AD:1C:76:27:17 RSSI: -70
+[[0;91mDEL[0m] Device 5D:FE:83:4D:CB:69 5D-FE-83-4D-CB-69
+[[0;92mNEW[0m] Device 69:77:CF:CF:39:B6 69-77-CF-CF-39-B6
+[[0;91mDEL[0m] Device 00:0A:83:2C:8E:BC 00-0A-83-2C-8E-BC
+[[0;91mDEL[0m] Device 00:0A:83:2F:62:11 00-0A-83-2F-62-11
+[[0;92mNEW[0m] Device 00:0A:83:2F:62:11 00-0A-83-2F-62-11
+[[0;91mDEL[0m] Device 60:FF:4E:FA:9B:5D 60-FF-4E-FA-9B-5D
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Value:
+  01 00 00 00 00 00 00 00 00 00 00 00 00 80 00 00  ................
+  00                                               .               
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Value:
+  10 06 3e 19 c0 b2 27 48                          ..>...'H        
+[[0;93mCHG[0m] Device 5D:5E:12:35:45:BB RSSI: -73
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC RSSI: -76
+[[0;93mCHG[0m] Device 71:45:1C:79:5E:E9 RSSI: -84
+[[0;91mDEL[0m] Device 77:E8:AB:F6:3A:8D 77-E8-AB-F6-3A-8D
+[[0;91mDEL[0m] Device 00:0A:83:2C:8E:9D 00-0A-83-2C-8E-9D
+[[0;92mNEW[0m] Device 60:FF:4E:FA:9B:5D 60-FF-4E-FA-9B-5D
+[[0;91mDEL[0m] Device 42:FF:64:04:93:22 42-FF-64-04-93-22
+[[0;92mNEW[0m] Device F0:1A:A0:00:08:AC F0-1A-A0-00-08-AC
+[[0;91mDEL[0m] Device 60:4F:8F:79:A2:61 60-4F-8F-79-A2-61
+[[0;91mDEL[0m] Device 4B:AD:1C:76:27:17 4B-AD-1C-76-27-17
+[[0;92mNEW[0m] Device 00:0A:83:2F:62:29 00-0A-83-2F-62-29
+[[0;93mCHG[0m] Device 60:FF:4E:FA:9B:5D RSSI: -79
+[[0;91mDEL[0m] Device 69:77:CF:CF:39:B6 69-77-CF-CF-39-B6
+[[0;91mDEL[0m] Device 6D:65:D6:34:A8:BA 6D-65-D6-34-A8-BA
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC RSSI: -88
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC ManufacturerData Value:
+  10 07 3d 1f 99 30 18 9f 58                       ..=..0..X       
+[[0;92mNEW[0m] Device 4B:AD:1C:76:27:17 4B-AD-1C-76-27-17
+[[0;92mNEW[0m] Device 6D:65:D6:34:A8:BA 6D-65-D6-34-A8-BA
+[[0;92mNEW[0m] Device 65:8D:CB:46:71:EC 65-8D-CB-46-71-EC
+[[0;92mNEW[0m] Device 28:DE:65:FF:FE:B0 28-DE-65-FF-FE-B0
+[[0;92mNEW[0m] Device 00:0A:83:2C:8E:9D 00-0A-83-2C-8E-9D
+[[0;93mCHG[0m] Device 47:06:04:3B:14:36 RSSI: -64
+[[0;93mCHG[0m] Device 71:45:1C:79:5E:E9 RSSI: -75
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B RSSI: -70
+[[0;93mCHG[0m] Device 65:8D:CB:46:71:EC ManufacturerData Key: 0x0075
+[[0;93mCHG[0m] Device 65:8D:CB:46:71:EC ManufacturerData Value:
+  02 18 61 b1 bc 99 6b 0b 89 0e e5 f0 72 81 8c cf  ..a...k.....r...
+  42 87 4e 52 22 ce 41 e7                          B.NR".A.        
+[[0;92mNEW[0m] Device 00:0A:83:2C:8E:BC 00-0A-83-2C-8E-BC
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B RSSI: -84
+[[0;92mNEW[0m] Device 18:B7:9E:0F:C2:8D 18-B7-9E-0F-C2-8D
+[[0;91mDEL[0m] Device 64:9F:A1:FF:1B:D5 64-9F-A1-FF-1B-D5
+[[0;91mDEL[0m] Device F0:1A:A0:00:08:AC F0-1A-A0-00-08-AC
+[[0;91mDEL[0m] Device 00:0A:83:2F:62:11 00-0A-83-2F-62-11
+[[0;91mDEL[0m] Device 00:0A:83:2F:62:29 00-0A-83-2F-62-29
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC RSSI: -75
+[[0;93mCHG[0m] Device 65:8D:CB:46:71:EC ManufacturerData Key: 0x0075
+[[0;93mCHG[0m] Device 65:8D:CB:46:71:EC ManufacturerData Value:
+  d8 46 f4                                         .F.             
+[[0;92mNEW[0m] Device 00:0A:83:2F:62:11 00-0A-83-2F-62-11
+[[0;91mDEL[0m] Device 6D:65:D6:34:A8:BA 6D-65-D6-34-A8-BA
+[[0;91mDEL[0m] Device 28:DE:65:FF:FE:B0 28-DE-65-FF-FE-B0
+[[0;91mDEL[0m] Device 00:0A:83:2C:8E:9D 00-0A-83-2C-8E-9D
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Value:
+  01 00 00 00 00 00 00 00 00 00 00 00 00 80 00 00  ................
+  00                                               .               
+[[0;92mNEW[0m] Device 6D:65:D6:34:A8:BA 6D-65-D6-34-A8-BA
+[[0;93mCHG[0m] Device 47:06:04:3B:14:36 RSSI: -73
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B RSSI: -76
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Value:
+  10 06 3e 19 c0 b2 27 48                          ..>...'H        
+[[0;91mDEL[0m] Device 60:FF:4E:FA:9B:5D 60-FF-4E-FA-9B-5D
+[[0;93mCHG[0m] Device 65:8D:CB:46:71:EC ManufacturerData Key: 0x0075
+[[0;93mCHG[0m] Device 65:8D:CB:46:71:EC ManufacturerData Value:
+  02 18 61 b1 bc 99 6b 0b 89 0e e5 f0 72 81 8c cf  ..a...k.....r...
+  42 87 4e 52 22 ce 41 e7                          B.NR".A.        
+[[0;93mCHG[0m] Device 00:0A:83:2F:62:11 ManufacturerData Key: 0x0199
+[[0;93mCHG[0m] Device 00:0A:83:2F:62:11 ManufacturerData Value:
+  02 02 20                                         ..              
+[[0;92mNEW[0m] Device 60:FF:4E:FA:9B:5D 60-FF-4E-FA-9B-5D
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC RSSI: -94
+[[0;91mDEL[0m] Device 18:B7:9E:0F:C2:8D 18-B7-9E-0F-C2-8D
+[[0;91mDEL[0m] Device 71:45:1C:79:5E:E9 71-45-1C-79-5E-E9
+[[0;91mDEL[0m] Device 00:0A:83:2C:8E:BC 00-0A-83-2C-8E-BC
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC RSSI: -83
+[[0;93mCHG[0m] Device 5D:5E:12:35:45:BB RSSI: -82
+[[0;93mCHG[0m] Device 47:06:04:3B:14:36 RSSI: -64
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B RSSI: -87
+[[0;93mCHG[0m] Device 6D:65:D6:34:A8:BA RSSI: -92
+[[0;92mNEW[0m] Device F0:1A:A0:00:06:15 F0-1A-A0-00-06-15
+[[0;93mCHG[0m] Device 4B:AD:1C:76:27:17 RSSI: -72
+[[0;92mNEW[0m] Device 75:50:37:83:95:08 75-50-37-83-95-08
+[[0;92mNEW[0m] Device 5E:CF:38:F4:F9:FC 5E-CF-38-F4-F9-FC
+[[0;92mNEW[0m] Device 00:0A:83:2C:8E:BC 00-0A-83-2C-8E-BC
+[[0;92mNEW[0m] Device F0:1A:A0:00:03:F5 F0-1A-A0-00-03-F5
+[[0;91mDEL[0m] Device 65:8D:CB:46:71:EC 65-8D-CB-46-71-EC
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC RSSI: -74
+[[0;91mDEL[0m] Device 00:0A:83:2F:62:11 00-0A-83-2F-62-11
+[[0;92mNEW[0m] Device 7C:8B:58:0C:A7:DE 7C-8B-58-0C-A7-DE
+[[0;93mCHG[0m] Device F0:1A:A0:00:03:F5 RSSI: -78
+[[0;93mCHG[0m] Device F0:1A:A0:00:03:F5 ManufacturerData Key: 0x011b
+[[0;93mCHG[0m] Device F0:1A:A0:00:03:F5 ManufacturerData Value:
+  08 f5 03 00 a0 1a f0 18 41 a7 83 01 00 00 05 36  ........A......6
+  01 00 ff                                         ...             
+[[0;93mCHG[0m] Device 5D:5E:12:35:45:BB RSSI: -74
+[[0;92mNEW[0m] Device 75:0B:2A:5D:0D:EC 75-0B-2A-5D-0D-EC
+[[0;92mNEW[0m] Device 00:A0:50:CF:03:59 00-A0-50-CF-03-59
+[[0;92mNEW[0m] Device 00:A0:50:CF:01:55 LCOG-92235381A01
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B RSSI: -71
+[[0;93mCHG[0m] Device 00:A0:50:CF:03:59 Name: LCOG-92235398C01
+[[0;93mCHG[0m] Device 00:A0:50:CF:03:59 Alias: LCOG-92235398C01
+[[0;93mCHG[0m] Device 4B:AD:1C:76:27:17 RSSI: -80
+[[0;92mNEW[0m] Device 00:A0:50:52:A4:C8 00-A0-50-52-A4-C8
+[[0;91mDEL[0m] Device 6D:65:D6:34:A8:BA 6D-65-D6-34-A8-BA
+[[0;91mDEL[0m] Device F0:1A:A0:00:06:15 F0-1A-A0-00-06-15
+[[0;91mDEL[0m] Device 75:50:37:83:95:08 75-50-37-83-95-08
+[[0;92mNEW[0m] Device 77:E8:AB:F6:3A:8D 77-E8-AB-F6-3A-8D
+[[0;91mDEL[0m] Device 5E:CF:38:F4:F9:FC 5E-CF-38-F4-F9-FC
+[[0;91mDEL[0m] Device 00:0A:83:2C:8E:BC 00-0A-83-2C-8E-BC
+[[0;92mNEW[0m] Device 00:0A:83:2F:62:29 00-0A-83-2F-62-29
+[[0;92mNEW[0m] Device 65:8D:CB:46:71:EC 65-8D-CB-46-71-EC
+[[0;91mDEL[0m] Device 60:FF:4E:FA:9B:5D 60-FF-4E-FA-9B-5D
+[[0;93mCHG[0m] Device 77:E8:AB:F6:3A:8D RSSI: -73
+[[0;93mCHG[0m] Device 77:E8:AB:F6:3A:8D ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 77:E8:AB:F6:3A:8D ManufacturerData Value:
+  01 00 00 00 00 00 00 00 00 00 00 00 00 80 00 00  ................
+  00                                               .               
+[[0;91mDEL[0m] Device 7C:8B:58:0C:A7:DE 7C-8B-58-0C-A7-DE
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B RSSI: -85
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Value:
+  01 00 00 00 00 00 00 00 00 00 00 00 00 80 00 00  ................
+  00                                               .               
+[[0;92mNEW[0m] Device 6D:65:D6:34:A8:BA 6D-65-D6-34-A8-BA
+[[0;92mNEW[0m] Device 00:0A:83:2C:8E:9D 00-0A-83-2C-8E-9D
+[[0;91mDEL[0m] Device F0:1A:A0:00:03:F5 F0-1A-A0-00-03-F5
+[[0;92mNEW[0m] Device 71:45:1C:79:5E:E9 71-45-1C-79-5E-E9
+[[0;91mDEL[0m] Device 75:0B:2A:5D:0D:EC 75-0B-2A-5D-0D-EC
+[[0;93mCHG[0m] Device 5D:5E:12:35:45:BB RSSI: -84
+[[0;92mNEW[0m] Device 28:DE:65:FF:FE:B0 28-DE-65-FF-FE-B0
+[[0;93mCHG[0m] Device 4B:AD:1C:76:27:17 RSSI: -70
+[[0;91mDEL[0m] Device 00:A0:50:CF:01:55 LCOG-92235381A01
+[[0;91mDEL[0m] Device 00:A0:50:CF:03:59 LCOG-92235398C01
+[[0;91mDEL[0m] Device 00:A0:50:52:A4:C8 00-A0-50-52-A4-C8
+[[0;93mCHG[0m] Device 77:E8:AB:F6:3A:8D RSSI: -83
+[[0;93mCHG[0m] Device 77:E8:AB:F6:3A:8D ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 77:E8:AB:F6:3A:8D ManufacturerData Value:
+  10 06 7c 1d ed 84 8e 18                          ..|.....        
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Value:
+  10 06 3e 19 c0 b2 27 48                          ..>...'H        
+[[0;92mNEW[0m] Device 60:4F:8F:79:A2:61 60-4F-8F-79-A2-61
+[[0;93mCHG[0m] Device 4B:AD:1C:76:27:17 RSSI: -82
+[[0;91mDEL[0m] Device 00:0A:83:2F:62:29 00-0A-83-2F-62-29
+[[0;91mDEL[0m] Device 65:8D:CB:46:71:EC 65-8D-CB-46-71-EC
+[[0;92mNEW[0m] Device 00:0A:83:2F:62:11 00-0A-83-2F-62-11
+[[0;92mNEW[0m] Device 60:FF:4E:FA:9B:5D 60-FF-4E-FA-9B-5D
+[[0;92mNEW[0m] Device 4A:A2:4A:A5:FA:2F 4A-A2-4A-A5-FA-2F
+[[0;91mDEL[0m] Device 6D:65:D6:34:A8:BA 6D-65-D6-34-A8-BA
+[[0;91mDEL[0m] Device 00:0A:83:2C:8E:9D 00-0A-83-2C-8E-9D
+[[0;92mNEW[0m] Device 65:8D:CB:46:71:EC 65-8D-CB-46-71-EC
+[[0;91mDEL[0m] Device 71:45:1C:79:5E:E9 71-45-1C-79-5E-E9
+[[0;93mCHG[0m] Device 4A:A2:4A:A5:FA:2F RSSI: -86
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC RSSI: -89
+[[0;92mNEW[0m] Device 6D:65:D6:34:A8:BA 6D-65-D6-34-A8-BA
+[[0;91mDEL[0m] Device 28:DE:65:FF:FE:B0 28-DE-65-FF-FE-B0
+[[0;92mNEW[0m] Device 00:0A:83:2C:8E:9D 00-0A-83-2C-8E-9D
+[[0;92mNEW[0m] Device F0:1A:A0:00:06:15 F0-1A-A0-00-06-15
+[[0;92mNEW[0m] Device 5E:CF:38:F4:F9:FC 5E-CF-38-F4-F9-FC
+[[0;91mDEL[0m] Device 77:E8:AB:F6:3A:8D 77-E8-AB-F6-3A-8D
+[[0;92mNEW[0m] Device C8:9C:33:D3:A5:95 C8-9C-33-D3-A5-95
+[[0;93mCHG[0m] Device 47:06:04:3B:14:36 RSSI: -73
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC RSSI: -74
+[[0;93mCHG[0m] Device 4A:A2:4A:A5:FA:2F RSSI: -77
+[[0;92mNEW[0m] Device 00:A0:50:CF:03:59 LCOG-92235398C01
+[[0;93mCHG[0m] Device 4B:AD:1C:76:27:17 RSSI: -70
+[[0;91mDEL[0m] Device 60:FF:4E:FA:9B:5D 60-FF-4E-FA-9B-5D
+[[0;93mCHG[0m] Device 65:8D:CB:46:71:EC ManufacturerData Key: 0x0075
+[[0;93mCHG[0m] Device 65:8D:CB:46:71:EC ManufacturerData Value:
+  02 18 61 b1 bc 99 6b 0b 89 0e e5 f0 72 81 8c cf  ..a...k.....r...
+  42 87 4e 52 22 ce 41 e7                          B.NR".A.        
+[[0;92mNEW[0m] Device 00:0A:83:2C:8E:BC 00-0A-83-2C-8E-BC
+[[0;92mNEW[0m] Device 60:FF:4E:FA:9B:5D 60-FF-4E-FA-9B-5D
+[[0;92mNEW[0m] Device F0:1A:A0:00:08:AC F0-1A-A0-00-08-AC
+[[0;92mNEW[0m] Device 71:45:1C:79:5E:E9 71-45-1C-79-5E-E9
+[[0;93mCHG[0m] Device 4A:A2:4A:A5:FA:2F RSSI: -87
+[[0;93mCHG[0m] Device 71:45:1C:79:5E:E9 RSSI: -82
+[[0;92mNEW[0m] Device 78:8E:F8:0C:02:9F 78-8E-F8-0C-02-9F
+[[0;93mCHG[0m] Device 60:4F:8F:79:A2:61 ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 60:4F:8F:79:A2:61 ManufacturerData Value:
+  10 06 76 1d c5 9c df 48                          ..v....H        
+[[0;92mNEW[0m] Device 6E:D6:AA:E1:25:C9 6E-D6-AA-E1-25-C9
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC RSSI: -85
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC ManufacturerData Value:
+  10 07 3d 1f 99 30 18 9b 58                       ..=..0..X       
+[[0;92mNEW[0m] Device 45:78:D2:1E:F1:93 45-78-D2-1E-F1-93
+[[0;91mDEL[0m] Device 6D:65:D6:34:A8:BA 6D-65-D6-34-A8-BA
+[[0;91mDEL[0m] Device F0:1A:A0:00:06:15 F0-1A-A0-00-06-15
+[[0;92mNEW[0m] Device 63:72:EE:B5:C3:46 63-72-EE-B5-C3-46
+[[0;93mCHG[0m] Device 65:8D:CB:46:71:EC RSSI: -83
+[[0;93mCHG[0m] Device 65:8D:CB:46:71:EC ManufacturerData Key: 0x0075
+[[0;93mCHG[0m] Device 65:8D:CB:46:71:EC ManufacturerData Value:
+  d8 46 f4                                         .F.             
+[[0;92mNEW[0m] Device 7D:07:05:72:DE:56 7D-07-05-72-DE-56
+[[0;92mNEW[0m] Device 59:C1:B1:73:C0:31 59-C1-B1-73-C0-31
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B RSSI: -96
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 76:9F:B8:3A:9D:3B ManufacturerData Value:
+  10 06 7e 1d c0 b2 27 48                          ..~...'H        
+[[0;91mDEL[0m] Device 00:0A:83:2C:8E:9D 00-0A-83-2C-8E-9D
+[[0;93mCHG[0m] Device 47:06:04:3B:14:36 RSSI: -83
+[[0;93mCHG[0m] Device 45:78:D2:1E:F1:93 ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 45:78:D2:1E:F1:93 ManufacturerData Value:
+  10 07 3c 1f 0e 4f 7b 17 08                       ..<..O{..       
+[[0;93mCHG[0m] Device 4B:AD:1C:76:27:17 RSSI: -81
+[[0;93mCHG[0m] Device 60:4F:8F:79:A2:61 ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 60:4F:8F:79:A2:61 ManufacturerData Value:
+  01 00 00 00 00 00 00 00 00 00 00 00 00 80 00 00  ................
+  00                                               .               
+[[0;93mCHG[0m] Device 65:8D:CB:46:71:EC ManufacturerData Key: 0x0075
+[[0;93mCHG[0m] Device 65:8D:CB:46:71:EC ManufacturerData Value:
+  02 18 61 b1 bc 99 6b 0b 89 0e e5 f0 72 81 8c cf  ..a...k.....r...
+  42 87 4e 52 22 ce 41 e7                          B.NR".A.        
+[[0;92mNEW[0m] Device 6D:65:D6:34:A8:BA 6D-65-D6-34-A8-BA
+[[0;91mDEL[0m] Device 00:0A:83:2F:62:11 00-0A-83-2F-62-11
+[[0;91mDEL[0m] Device 00:A0:50:CF:03:59 LCOG-92235398C01
+[[0;92mNEW[0m] Device 28:DE:65:FF:FE:B0 28-DE-65-FF-FE-B0
+[[0;93mCHG[0m] Device 4A:A2:4A:A5:FA:2F RSSI: -76
+[[0;91mDEL[0m] Device 00:0A:83:2C:8E:BC 00-0A-83-2C-8E-BC
+[[0;91mDEL[0m] Device 60:FF:4E:FA:9B:5D 60-FF-4E-FA-9B-5D
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC RSSI: -73
+[[0;92mNEW[0m] Device F0:1A:A0:00:06:15 F0-1A-A0-00-06-15
+[[0;91mDEL[0m] Device F0:1A:A0:00:08:AC F0-1A-A0-00-08-AC
+[[0;91mDEL[0m] Device 71:45:1C:79:5E:E9 71-45-1C-79-5E-E9
+[[0;91mDEL[0m] Device 78:8E:F8:0C:02:9F 78-8E-F8-0C-02-9F
+[[0;91mDEL[0m] Device 6E:D6:AA:E1:25:C9 6E-D6-AA-E1-25-C9
+[[0;93mCHG[0m] Device 5D:5E:12:35:45:BB RSSI: -99
+[[0;93mCHG[0m] Device 4B:86:1B:D2:8D:DC RSSI: -81
+[[0;93mCHG[0m] Device 47:06:04:3B:14:36 RSSI: -64
+[[0;91mDEL[0m] Device 63:72:EE:B5:C3:46 63-72-EE-B5-C3-46
+[[0;91mDEL[0m] Device 7D:07:05:72:DE:56 7D-07-05-72-DE-56
+[[0;91mDEL
