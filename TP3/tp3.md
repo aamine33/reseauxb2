@@ -565,10 +565,10 @@ MAC Address: 7C:5A:1C:D3:D8:76 (Sophos)
 Nmap scan report for 10.33.66.94
 Host is up.
 Nmap done: 4096 IP addresses (59 hosts up) scanned in 94.71 seconds
-
-- Ce scan effectué sur la plage d'adresses 10.33.66.0./20 a pu me détecter 59 hotes pour 4096 adresses IP trouvées. La majorité des appareils trouvés n'ont pas pu etre identifié. Néanmoins, quelques constructeurs ont pu etre relevés comme Intel Corporate, AsureWave Technology , Apple, Xiaomi,Cloud Network Technology Singapore PTE ou Sophos.
-
 ```
+-  Ce scan effectué sur la plage d'adresses 10.33.66.0./20 a pu me détecter 59 hotes pour 4096 adresses IP trouvées. La majorité des appareils trouvés n'ont pas pu etre identifié. Néanmoins, quelques constructeurs ont pu etre relevés comme Intel Corporate, AsureWave Technology , Apple, Xiaomi,Cloud Network Technology Singapore PTE ou Sophos.
+
+
 🌞 Détection des appareils non joignables ou joignables
 ```
 batman33@BATPC:~$ sudo arp-scan --interface=wlo1 10.33.66.0/24
