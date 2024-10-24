@@ -102,10 +102,6 @@ Sent 1 packets.
 $ sudo python3 icmp_exf_rcv.py
 t
 ```
-⭐ Bonus 1 easy :
-```
-
-```
 
 IV. Exfiltration DNS
 
