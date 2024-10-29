@@ -3,8 +3,8 @@ import sys
 import re
 import logging
 # On définit la destination de la connexion
-host = '10.1.1.2'  # IP du serveur
-port = 13337               # Port choisir par le serveur
+host = '10.33.66.78'  # IP du serveur
+port = 13337              # Port choisir par le serveur
 
 class CustomFormatter(logging.Formatter):
 
@@ -54,21 +54,19 @@ try:
     
     userMessage = input("Veuillez saisir une opération arithmétique : ")
 
-    pattern = r'^(-?\d{1,5})\s*([+*-])\s*(-?\d{1,5})$'
+    #pattern = r'^(-?\d{1,5})\s*([+*-])\s*(-?\d{1,5})$'
 
-    match= re.match(pattern, userMessage)
-    if match:
+   # match= re.match(pattern, userMessage)
+   # if match:
         num1, operator, num2 = match.groups()
         num1, num2 = int(num1), int(num2)
 
         # Vérifiez si les nombres sont dans la plage [-100000, 100000]
-        if -100000 <= num1 <= 100000 and -100000 <= num2 <= 100000:
-            s.sendall(userMessage.encode("utf-8"))
-            logger.info("Message envoyé au serveur %s : %s", host, userMessage)
-        else:
-            raise ValueError("l'opération autorisée n'accepte que des nombres entiers compris entre -100000 et +100000")
-    else:
-        raise ValueError("l'opération autorisée n'accepte que les signes suivants (-,+,*) et des nombres entiers compris entre -100000 et +100000")
+    
+      #  else:
+     #       raise ValueError("l'opération autorisée n'accepte que des nombres entiers compris entre -100000 et +100000")
+    #else:
+       # raise ValueError("l'opération autorisée n'accepte que les signes suivants (-,+,*) et des nombres entiers compris entre -100000 et +100000")
     
     data = s.recv(1024)
     s.close()
