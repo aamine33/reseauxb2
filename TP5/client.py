@@ -57,7 +57,7 @@ try:
     #pattern = r'^(-?\d{1,5})\s*([+*-])\s*(-?\d{1,5})$'
 
    # match= re.match(pattern, userMessage)
-   # if match:
+    if match:
         num1, operator, num2 = match.groups()
         num1, num2 = int(num1), int(num2)
 
