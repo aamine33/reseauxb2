@@ -11,10 +11,13 @@ I. DNS Rebinding
 
 🌞 Write-up de l'épreuve
 ```
-- Ce challenge root-me , comme son nom l'indique, expose une faille DNS rebinding. Le but de ce challenge est d'accéder à la page admin ("http://challenge01.root-me.org:54022/admin") contenant le flag. 
-    Mais le problème, c'est qu'il faut envoyer une requete pour atteindre cette page en étant en localhost ou bien avec l'IP 127.0.0.1. Pour mener à bien cet exercice, il me fallait soit un server DNS avec un TTL de 0 ou bien un outil me permettant de réaliser cette attaque.
-    Après m'etre bien renseigné sur ce qu'est cette attaque, j'ai effectue la recherche "DNS service rebinding" et j'ai trouve un outil sur un github permettant de faire ce que j'ai besoin pour cette exercice. En spécifiant l'adresse IP localhost et une IP publique, j'ai pu obtenir un bout d'URL généré. En allant ensuite sur la page du challenge , je n'avais qu'a rajouté le "http" suivie du lien avec à la fin ":54022/admin". 
-    En envoyant plusieurs fois cette URL, j'ai pu obtenir le flag.Il faut savoir que cet outil envoie une réponse aléatoire entre deux IPs c'est pour cela que j'ai du renvoyer plusieurs fois la requete tandis qu'un vrai server aurait permis d'envoyer deux requetes différentes mais spécifique.
+    -Ce challenge root-me , comme son nom l'indique, expose une faille DNS rebinding. Le but de ce challenge est d'accéder à la page admin ("http://challenge01.root-me.org:54022/admin") contenant le flag. 
+    Mais le problème, c'est qu'il faut envoyer une requete pour atteindre cette page en
+étant en localhost ou bien avec l'IP 127.0.0.1. Pour mener à bien cet exercice, il me fallait soit un server DNS avec un TTL de 0 ou bien un outil me permettant de réaliser cette attaque. 
+    Après m'etre bien renseigné sur ce qu'est cette attaque, j'ai effectue la recherche
+"DNS service rebinding" et j'ai trouve un outil sur un github permettant de faire ce que j'ai besoin pour cette exercice. En spécifiant l'adresse IP localhost et une IP publique, j'ai pu obtenir un bout d'URL généré. En allant ensuite sur la page du challenge , je n'avais qu'a rajouté le "http" suivie du lien avec à la fin ":54022/admin". 
+    En envoyant plusieurs fois cette URL, j'ai pu obtenir le flag.Il faut savoir que cet 
+outil envoie une réponse aléatoire entre deux IPs c'est pour cela que j'ai du renvoyer plusieurs fois la requete tandis qu'un vrai server aurait permis d'envoyer deux requetes différentes mais spécifique.
 ```
 🌞 Proposer une version du code qui n'est pas vulnérable
 
@@ -33,8 +36,10 @@ IP46T -A INPUT-HTTP -m limit --limit 3/sec --limit-burst 20 -j DROP
 IP46T -A INPUT-HTTP -j ACCEPT
 ```
 ```
-Après m'etre renseigné sur "limit-burst" j'ai compris de suite ce qu'il fallait faire pour obtenir le flag de ce challenge. En principe, quand l'algorithme de sceau à jetons est vide, les paquets suivant ne peuvent plus correspondre à la règle et donc poursuivent leur route vers la règle suivante. 
-En l'occurence dans ce cas, il fallait donc que le nombre de requete soit supérieur à 20 car la 21ème sera accepté puisque le dernier paquet recontrera là règle suivante.
+    Après m'etre renseigné sur "limit-burst" j'ai compris de suite ce qu'il fallait
+faire pour obtenir le flag de ce challenge. En principe, quand l'algorithme de sceau à jetons est vide, les paquets suivant ne peuvent plus correspondre à la règle et donc poursuivent leur route vers la règle suivante. 
+    En l'occurence dans ce cas, il fallait donc que le nombre de requete soit supérieur
+à 20 car la 21ème sera accepté puisque le dernier paquet recontrera là règle suivante.
 ```
 🌞 Proposer un jeu de règles firewall
 
@@ -47,7 +52,8 @@ IP46T -A INPUT-HTTP -j DROP
 
 III. ARP Spoofing Ecoute active
 ```
-Le but de cet exercice cette fois-ci est de récolter des informations dans un réseau à travers une machine que nous controlons. D'après l'énoncé de ce challenge, le flag est divisé en deux parties , d'un coté qui est la réponse d'une requete sur le réseau et de l'autre le mot de passe de la base de données.
+    Le but de cet exercice cette fois-ci est de récolter des informations dans un réseau
+à travers une machine que nous controlons. D'après l'énoncé de ce challenge, le flag est divisé en deux parties , d'un coté qui est la réponse d'une requete sur le réseau et de l'autre le mot de passe de la base de données.
 - Je commence par savoir déjà qui je suis :
 root@fac50de5d760:~# ip a
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
