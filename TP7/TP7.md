@@ -212,12 +212,6 @@ Voici la section à ajouter à la configuration du serveur :
 PublicKey = PZGEJNsPhFJVYTThPM5fUpFlx/zJsO5yVRhmB0vWWkQ=
 AllowedIPs = 10.7.2.2/32
 
-Création d'un alias pour se connecter au VPN...
-L'alias 'vpn' a été ajouté à votre fichier ~/.bashrc.
-Vous pouvez maintenant vous connecter au VPN en exécutant 'vpn' dans le terminal.
-N'oubliez pas de modifier '<PublicKey_serveur>' et '<IP_du_serveur_VPN>' dans la configuration client avant de l'utiliser.
-Une fois configuré, vous pouvez démarrer la connexion VPN avec la commande :
-vpn
 batman@BATPC:~$ vpn
 [#] ip link add wg0-client type wireguard
 [#] wg setconf wg0-client /dev/fd/63
